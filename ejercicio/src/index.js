@@ -23,6 +23,14 @@ const listOfasignaturas = React.createElement('lu', { id: 'lista' }, elements);
 
 ReactDOM.render(listOfasignaturas, document.getElementById('list'));
 
+const image = React.createElement('img', { src: 'quimica.jpg', border: '3px black solid' })
+ReactDOM.render(image, document.getElementById('imagen'));
+
+/********************************************************************************************/
+
+ReactDOM.render(<h4>Ejemplo de pestañas creadas con elementos estáticos de React y CSS.</h4>, document.getElementById('titulo'));
+ReactDOM.render(<p>La química es la ciencia que estudia tanto la composición, como la estructura y las propiedades de la materia como los cambios que esta experimenta durante las reacciones químicas y su relación con la energía.</p>, document.getElementById('texto'));
+
 
 
 serviceWorker.unregister();
